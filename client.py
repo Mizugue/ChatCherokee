@@ -6,8 +6,10 @@ import queue
 from tkinter import Text, Entry, Button, Frame
 
 class Chat():
-    def __init__(self):
+    def __init__(self, ip, port):
         self.telauser()
+        self.ip = ip
+        self.port = port
 
 
 
@@ -93,7 +95,7 @@ class Chat():
 
         try:
             self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-            self.client.connect(('192.168.2.126', 666))
+            self.client.connect((self.ip, self.port))
         except:
             messagebox.showinfo("Warning!", "Did not possible stabilish a connection with the server.")
             self.entrada1.delete(0, tkinter.END)
@@ -161,7 +163,7 @@ class Chat():
 
 
 if __name__ == "__main__":
-    Chat()
+    Chat('192.168.2.126', 666)
 
 
 
