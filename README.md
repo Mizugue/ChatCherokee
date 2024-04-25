@@ -1,5 +1,5 @@
 # ChatCherokee
-Simples Chat + Server
+Simple Chat + Server
 
 
 <h1>Server with somethings features</h1>
