@@ -2,7 +2,7 @@
 Simple Chat + Server
 
 
-<h1>Server with somethings features</h1>
+<h1>Server Pawnee with somethings features</h1>
 
 ![telaserver](https://github.com/Mizugue/ChatCherokee/assets/126506298/d5feb7a1-8525-466c-ae97-5f461f92075b)
 
