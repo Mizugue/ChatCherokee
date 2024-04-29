@@ -116,5 +116,5 @@ class Servidor():
             self.clients.remove(client)
 
 
-
-Servidor("192.168.2.126", 666)
+if __name__ == "__main__":
+    Servidor("192.168.2.126", 666)
